@@ -30,7 +30,7 @@ Wektor2D operator+(Wektor2D& w1, Wektor2D& w2)
     return tmp;
 }
 
-double operator*(Wektor2D& w1, Wektor2d& w2)
+double operator*(Wektor2D& w1, Wektor2D& w2)
 {
     return w1.x*w2.x+w1.y*w2.y;
 }
